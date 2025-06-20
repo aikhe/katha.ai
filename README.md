@@ -4,6 +4,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 
 ### Tech Stack:
 
+- Turborepo
 - Next.js
 - Supabase
 - Drizzle
