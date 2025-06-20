@@ -92,9 +92,17 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [ ] Metadata for each pages (MatterProvider)
   - [ ] Worried about the routing for each generated katha by each user since the dashboard routing is very limited to _pages folder
 
+- TURBOREPO
+
+  - [ ] 
+  - [ ] 
+  - [ ] 
+
 - ERUDITON
 
   - [x] Tailwind v4
+  - [x] Running lint (literally an lsp)
+  - [ ] 
   - [x] Use case for supabase clients:
       ```
       - Client component client: displaying updates e.g User Info (frontend side, faster, optimistic UI updates, relies heavily on RLS for security)
