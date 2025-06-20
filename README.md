@@ -94,6 +94,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 
 - ERUDITON
 
+  - [x] Tailwind v4
   - [x] Use case for supabase clients:
       ```
       - Client component client: displaying updates e.g User Info (frontend side, faster, optimistic UI updates, relies heavily on RLS for security)
