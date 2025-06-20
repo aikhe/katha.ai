@@ -61,6 +61,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] Remove unecessary/unused components/styling
   - [ ] Dependencies
     - [x] @supabase/supabase-js @supabase/ssr
+    - [ ] prettier-plugin-tailwindcss
     - [ ] node-mailjet
     - [ ] zod
     - [ ] react-hook-form
@@ -94,8 +95,9 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 
 - TURBOREPO
 
-  - [ ] 
-  - [ ] 
+  - [ ] Sync/update package.json & turbo.json
+  - [ ] linting
+  - [ ] Formatting (prettier)
   - [ ] 
 
 - ERUDITON

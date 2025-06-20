@@ -7,6 +7,11 @@ apps/site/.next
 apps/site/out
 apps/site/build
 
+# Vercel Files
+.vercel
+.turbo
+cache
+
 # dependencies
 .pnp
 .pnp.*

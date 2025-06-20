@@ -1,6 +1,18 @@
 {
+  "name": "katha-ai",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "check-types": "tsc --noEmit"
+  },
   "dependencies": {},
   "devDependencies": {
     "turbo": "^2.5.4"
-  }
+  },
+  "packageManager": "bun@1.2.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
 }
