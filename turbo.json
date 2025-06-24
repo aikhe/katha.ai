@@ -13,7 +13,7 @@
       "outputs": [".prettiercache"]
     },
     "prettier:fix": {
-      "dependsOn": ["^prettier"]
+      "dependsOn": ["^prettier"],
     },
     "topo": {
       "dependsOn": ["^topo"]

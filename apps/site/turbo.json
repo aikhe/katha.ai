@@ -20,7 +20,7 @@
       "cache": false
     },
     "build": {
-      "dependsOn": ["build:blog-data", "^build"],
+      "dependsOn": ["^build"],
       "inputs": [
         "{app,components,hooks,layouts,middlewares,pages,providers,types,util}/**/*.{ts,tsx}",
         "{app,components,layouts,pages,styles}/**/*.css",
