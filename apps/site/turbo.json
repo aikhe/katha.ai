@@ -1,0 +1,40 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "extends": ["//"],
+  "globalEnv": ["NODE_ENV"],
+  "tasks": {
+    "dev": {
+      "dependsOn": ["^dev"],
+      "cache": false,
+      "persistent": true,
+      "env": [
+        "NEXT_PUBLIC_SUPABASE_URL",
+        "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+        "SUPABASE_ADMIN",
+        "MJ_APIKEY_PUBLIC",
+        "MJ_APIKEY_PRIVATE",
+        "NEXT_PUBLIC_API_URL"
+      ]
+    },
+    "format": {
+      "cache": false
+    },
+    "build": {
+      "dependsOn": ["build:blog-data", "^build"],
+      "inputs": [
+        "{app,components,hooks,layouts,middlewares,pages,providers,types,util}/**/*.{ts,tsx}",
+        "{app,components,layouts,pages,styles}/**/*.css",
+        "*.{json,ts,tsx,mjs,yml}"
+      ],
+      "outputs": [".next/**", "!.next/cache/**"],
+      "env": [
+        "NEXT_PUBLIC_SUPABASE_URL",
+        "NEXT_PUBLIC_SUPABASE_ANON_KEY",
+        "SUPABASE_ADMIN",
+        "MJ_APIKEY_PUBLIC",
+        "MJ_APIKEY_PRIVATE",
+        "NEXT_PUBLIC_API_URL"
+      ]
+    }
+  }
+}

@@ -12,6 +12,9 @@ apps/site/build
 .turbo
 cache
 
+# Cache Files
+.prettiercache
+
 # dependencies
 .pnp
 .pnp.*

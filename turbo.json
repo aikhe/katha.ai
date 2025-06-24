@@ -1,5 +1,6 @@
 {
   "$schema": "https://turborepo.com/schema.json",
+  "dangerouslyDisablePackageManagerCheck": true,
   "tasks": {
     "build": {
       "dependsOn": ["^topo"]
@@ -7,9 +8,12 @@
     "lint": {
       "dependsOn": ["^topo"]
     },
-    "dev": {
-      "cache": false,
-      "persistent": true
+    "prettier": {
+      "inputs": ["**/*.{js,mjs,ts,tsx,md,mdx,json,yml,css}"],
+      "outputs": [".prettiercache"]
+    },
+    "prettier:fix": {
+      "dependsOn": ["^prettier"]
     },
     "topo": {
       "dependsOn": ["^topo"]
