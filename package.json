@@ -2,11 +2,14 @@
   "name": "katha-ai",
   "private": true,
   "scripts": {
-    "build": "turbo run build",
-    "dev": "turbo run dev",
-    "check-types": "tsc --noEmit"
+    "build": "turbo build",
+    "build:turbopack": "turbo build:turbopack",
+    "dev": "turbo dev",
+    "dev:turbopack": "turbo dev:turbopack"
   },
-  "dependencies": {},
+  "dependencies": {
+    "cross-env": "^7.0.3"
+  },
   "devDependencies": {
     "turbo": "^2.5.4"
   },

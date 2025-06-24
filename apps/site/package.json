@@ -4,12 +4,13 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "dev-turbo": "next dev --turbopack",
-    "build": "next build",
-    "build-turbo": "next build --turbopack",
-    "start": "next start",
-    "lint": "next lint"
+    "build": "node --run build:default -- --turbo",
+    "build:default": "cross-env NODE_NO_WARNINGS=1 next build",
+    "build:turbopack": "cross-env NODE_NO_WARNINGS=1 next build --turbopack",
+    "dev": "cross-env NODE_NO_WARNINGS=1 next dev --turbo",
+    "dev:turbopack": "cross-env NODE_NO_WARNINGS=1 next dev --turbopack",
+    "lint": "next lint",
+    "start": "next start"
   },
   "dependencies": {
     "@supabase/ssr": "^0.6.1",

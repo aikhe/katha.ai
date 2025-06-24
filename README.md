@@ -70,6 +70,10 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [ ] @tanstack/react-query
     - [ ] @tanstack/react-query-devtools
     - [ ] Shadcn
+  - [ ] Dev dependencies
+    - [ ] Shadcn
+    - [ ] 
+    - [ ] 
   - [ ] 
 
 - AUTH (Supabase)
@@ -97,15 +101,28 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 - TURBOREPO
 
   - [ ] Sync/update package.json & turbo.json
-  - [ ] linting
-  - [ ] Formatting (prettier)
+  - [ ] Formatting
+    - [ ] Prettier
+    - [ ] Tailwindcss prettier plugin
+  - [ ] Linting 
   - [ ] 
 
 - ERUDITON
 
   - [x] Tailwind v4
-  - [x] Running lint (literally an lsp)
-  - [ ] 
+  - [x] Monorepos (turborepo)
+  - [ ] Prettier 
+  - [ ] Running lint (literally an lsp)
+  - [ ] CI/CD pipelines (github actions)
+  - [ ] Implement pre-scripts for both build and dev for a usecase
+    ```
+    {
+      "scripts": {
+	"prebuild": "node --run build:blog-data",
+	"predev": "node --run build:blog-data",
+      }
+    }
+    ```
   - [x] Use case for supabase clients:
       ```
       - Client component client: displaying updates e.g User Info (frontend side, faster, optimistic UI updates, relies heavily on RLS for security)
