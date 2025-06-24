@@ -62,6 +62,8 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] Remove unecessary/unused components/styling
   - [ ] Dependencies
     - [x] @supabase/supabase-js @supabase/ssr
+    - [x] cross-env
+    - [ ] Prettier
     - [ ] prettier-plugin-tailwindcss
     - [ ] node-mailjet
     - [ ] zod
@@ -135,3 +137,4 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 
   - Builds and dev check to avoid issues on deployment
   - React scan (forgot about the auth component)
+  - Repo is built with collaborators in mind so I can actually learn shit
