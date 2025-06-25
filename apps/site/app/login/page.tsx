@@ -1,4 +1,4 @@
-import { login, signup, verifyOtp } from "./actions";
+import { login, signup, verifyOtp } from './actions';
 
 export default function LoginPage() {
   return (

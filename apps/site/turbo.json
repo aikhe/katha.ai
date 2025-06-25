@@ -16,9 +16,6 @@
         "NEXT_PUBLIC_API_URL"
       ]
     },
-    "format": {
-      "cache": false
-    },
     "build": {
       "dependsOn": ["^build"],
       "inputs": [

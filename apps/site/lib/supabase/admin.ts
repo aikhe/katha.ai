@@ -1,4 +1,4 @@
-import { createClient } from "@supabase/supabase-js";
+import { createClient } from '@supabase/supabase-js';
 
 export default function supabaseAdmin() {
   return createClient(
@@ -9,6 +9,6 @@ export default function supabaseAdmin() {
         autoRefreshToken: false,
         persistSession: false,
       },
-    },
+    }
   );
 }
