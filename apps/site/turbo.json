@@ -32,6 +32,20 @@
         "MJ_APIKEY_PRIVATE",
         "NEXT_PUBLIC_API_URL"
       ]
+    },
+    "lint:js": {
+      "inputs": [
+        "{app,components,hooks,layouts,middlewares,pages,providers,types,util}/**/*.{ts,tsx,mjs}",
+        "public/**/*.{ts,js,json}",
+        "*.{json,ts,tsx}"
+      ]
+    },
+    "lint:css": {
+      "inputs": ["{app,components,layouts,pages,styles}/**/*.css"],
+      "outputs": [".stylelintcache"]
+    },
+    "lint:fix": {
+      "cache": false
     }
   }
 }

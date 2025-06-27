@@ -104,8 +104,9 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 
   - [ ] Sync/update package.json & turbo.json
   - [ ] Formatting
-    - [ ] Prettier
-    - [ ] Tailwindcss prettier plugin
+    - [x] Prettier
+    - [x] Tailwindcss prettier plugin
+    - [ ] Eslint
   - [ ] Linting 
   - [ ] 
 
@@ -113,8 +114,9 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 
   - [x] Tailwind v4
   - [x] Monorepos (turborepo)
-  - [ ] Prettier 
-  - [ ] Running lint (literally an lsp)
+  - [x] More node usecase
+  - [x] Prettier 
+  - [ ] Running lint/eslint (literally an lsp)
   - [ ] CI/CD pipelines (github actions)
   - [ ] Implement pre-scripts for both build and dev for a usecase
     ```

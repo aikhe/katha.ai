@@ -14,6 +14,7 @@ cache
 
 # Cache Files
 .prettiercache
+.stylelintcache
 
 # dependencies
 .pnp
