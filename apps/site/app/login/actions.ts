@@ -1,11 +1,11 @@
 'use server';
 
+import type { GenerateLinkParams } from '@supabase/supabase-js';
 import { revalidatePath } from 'next/cache';
 import { redirect } from 'next/navigation';
 
-import { createServer } from '@/lib/supabase/server';
 import supabaseAdmin from '@/lib/supabase/admin';
-import { GenerateLinkParams } from '@supabase/supabase-js';
+import { createServer } from '@/lib/supabase/server';
 
 export async function login(formData: FormData) {
   const supabase = await createServer();
