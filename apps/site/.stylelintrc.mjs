@@ -16,12 +16,6 @@ const CUSTOM_AT_RULES = [
 export default {
   extends: ['stylelint-config-standard'],
   rules: {
-    'at-rule-no-unknown': [
-      true,
-      {
-        // Allow Tailwind-based CSS Rules
-        'at-rule-no-unknown': [true, { ignoreAtRules: CUSTOM_AT_RULES }],
-      },
-    ],
+    'at-rule-no-unknown': [true, { ignoreAtRules: CUSTOM_AT_RULES }],
   },
 };

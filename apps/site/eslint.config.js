@@ -1,6 +1,7 @@
 import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { FlatCompat } from '@eslint/eslintrc';
+import tseslint from 'typescript-eslint';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -9,24 +10,9 @@ const compat = new FlatCompat({
   baseDirectory: __dirname,
 });
 
-const eslintConfig = [
+export default tseslint.config(
   ...compat.extends('next/core-web-vitals', 'next/typescript'),
   {
-    ignores: [
-      'node_modules',
-      '.turbo',
-      '.next',
-      'build',
-      'lcov.info',
-      'global.d.ts',
-      'junit.xml',
-      'storybook-static/**',
-      '**/.wrangler',
-      '**/.open-next',
-      'test-results',
-      'playwright-report',
-    ],
-  },
-];
-
-export default eslintConfig;
+    ignores: ['node_modules', '.turbo', '.next', 'build'],
+  }
+);
