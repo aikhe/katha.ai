@@ -1,0 +1,23 @@
+# Commonly ignored Node.js files
+node_modules
+
+# Next.js Build Output
+.next
+build
+
+# Vercel Files
+.vercel
+.turbo
+cache
+
+# Cache Files
+.eslintmdcache
+.stylelintcache
+.prettiercache
+
+# TypeScript
+tsconfig.tsbuildinfo
+
+# Public Folders
+apps/site/public
+

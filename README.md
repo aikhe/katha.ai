@@ -103,18 +103,34 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 - TURBOREPO
 
   - [ ] Sync/update package.json & turbo.json
-  - [ ] Formatting
-    - [x] Prettier
-    - [x] Tailwindcss prettier plugin
-    - [x] Stylelint
-    - [x] Eslint
+
+- CONFIGS
+
+  - [x] Prettierignore
+  - [x] Prettier
+  - [x] Tailwindcss prettier plugin
+  - [ ] Stylelint
+  ```
+  - apps/site
+  - packages/ui-components
+  - 
+  ```
+  - [ ] Eslint
+  ```
+  - root
+  - apps/site
+  - packages/ui-components
+  - 
+  ```
+  - [ ] 
+
+- SCRIPTS
+
   - [ ] Linting scripts
     - [x] css
     - [x] js
     - [ ] md
-  - [ ] Stylelint rules
-    - [ ] Allow tailwind-based css rules
-    - [ ] 
+  - [ ] Fix lint & format via root
   - [ ] 
 
 - ERUDITON
