@@ -106,8 +106,15 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [ ] Formatting
     - [x] Prettier
     - [x] Tailwindcss prettier plugin
-    - [ ] Eslint
-  - [ ] Linting 
+    - [x] Stylelint
+    - [x] Eslint
+  - [ ] Linting scripts
+    - [x] css
+    - [x] js
+    - [ ] md
+  - [ ] Stylelint rules
+    - [ ] Allow tailwind-based css rules
+    - [ ] 
   - [ ] 
 
 - ERUDITON
@@ -116,7 +123,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] Monorepos (turborepo)
   - [x] More node usecase
   - [x] Prettier 
-  - [ ] Running lint/eslint (literally an lsp)
+  - [x] Running lint/eslint (literally an lsp)
   - [ ] CI/CD pipelines (github actions)
   - [ ] Implement pre-scripts for both build and dev for a usecase
     ```
