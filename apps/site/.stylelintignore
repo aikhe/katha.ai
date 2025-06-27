@@ -1,23 +1,4 @@
 # Next.js files
 .next
 .turbo
-.swc
 build
-
-# Public Folder
-public
-
-# Test Runner
-junit.xml
-lcov.info
-
-# Old Styles
-styles/old
-
-# Cloudflare Build Output
-.open-next
-.wrangler
-
-# Playwright
-test-results
-playwright-report
