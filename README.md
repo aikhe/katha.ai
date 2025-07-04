@@ -103,13 +103,21 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 - TURBOREPO
 
   - [ ] Sync/update package.json & turbo.json
+  - [ ] ci/cd pipeline
+  ```
+  1. Formatting/linting (prettier, eslint, stylelint)
+  2. Build & Start
+  3. 
+  ```
 
 - CONFIGS
 
   - [x] Prettierignore
   - [x] Prettier
   - [x] Tailwindcss prettier plugin
-  - [ ] Stylelint
+  - [x] Build
+  - [x] Start
+  - [x] Stylelint
   ```
   - apps/site
   - packages/ui-components
@@ -130,7 +138,10 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] css
     - [x] js
     - [ ] md
-  - [ ] Fix lint & format via root
+  - [x] Fix lint & format via root
+  - [x] Build & start
+  - [ ] 
+  - [ ] Check-types
   - [ ] 
 
 - ERUDITON
