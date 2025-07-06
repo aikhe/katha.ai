@@ -63,8 +63,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [ ] Dependencies
     - [x] @supabase/supabase-js @supabase/ssr
     - [x] cross-env
-    - [ ] Prettier
-    - [ ] prettier-plugin-tailwindcss
+    - [x] react-scan
     - [ ] node-mailjet
     - [ ] zod
     - [ ] react-hook-form
@@ -73,8 +72,12 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [ ] @tanstack/react-query-devtools
     - [ ] Shadcn
   - [ ] Dev dependencies
-    - [ ] Shadcn
-    - [ ] 
+    - [x] turbo
+    - [x] prettier
+    - [x] prettier-plugin-tailwindcss
+    - [x] @eslint/js
+    - [x] eslint
+    - [x] eslint-plugin-import-x
     - [ ] 
   - [ ] 
 
@@ -103,7 +106,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 - TURBOREPO
 
   - [ ] Sync/update package.json & turbo.json
-  - [ ] ci/cd pipeline
+  - [ ] ci/cd pipeline (github action implementation)
   ```
   1. Formatting/linting (prettier, eslint, stylelint)
   2. Build & Start
@@ -117,7 +120,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] Tailwindcss prettier plugin
   - [x] Build
   - [x] Start
-  - [x] Stylelint
+  - [ ] Stylelint
   ```
   - apps/site
   - packages/ui-components
@@ -151,7 +154,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] More node usecase
   - [x] Prettier 
   - [x] Running lint/eslint (literally an lsp)
-  - [ ] CI/CD pipelines (github actions)
+  - [ ] CI/CD pipeline (github actions)
   - [ ] Implement pre-scripts for both build and dev for a usecase
     ```
     {
@@ -174,3 +177,4 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - Builds and dev check to avoid issues on deployment
   - React scan (forgot about the auth component)
   - Repo is built with collaborators in mind so I can actually learn shit
+  - I make my life hard I can actually kill myself
