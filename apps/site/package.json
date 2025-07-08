@@ -15,6 +15,7 @@
     "start": "cross-env NODE_NO_WARNINGS=1 next start --port 3004"
   },
   "dependencies": {
+    "@katha-core/ui-components": "workspace:*",
     "@supabase/ssr": "^0.6.1",
     "@supabase/supabase-js": "^2.50.0",
     "cross-env": "^7.0.3",

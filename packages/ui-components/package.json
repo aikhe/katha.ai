@@ -1,11 +1,31 @@
 {
-  "name": "ui-components",
+  "name": "@katha-core/ui-components",
+  "type": "module",
+  "exports": {
+    "./*": [
+      "./src/*",
+      "./src/*.tsx",
+      "./src/*/index.tsx",
+      "./src/*.ts",
+      "./src/*/index.ts"
+    ]
+  },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.11",
     "@types/bun": "latest",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11"
   },
-  "private": true,
-  "type": "module"
+  "imports": {
+    "#ui/*": [
+      "./src/*",
+      "./src/*.tsx",
+      "./src/*/index.tsx",
+      "./src/*.ts",
+      "./src/*/index.ts"
+    ]
+  },
+  "engines": {
+    "node": ">=20"
+  }
 }
