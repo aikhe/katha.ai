@@ -164,6 +164,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] More node usecase
   - [x] Prettier 
   - [x] Running lint/eslint (literally an lsp)
+  - [x] Ts-config (configuration options)
   - [ ] CI/CD pipeline (github actions)
   - [ ] Implement pre-scripts for both build and dev for a usecase
     ```
