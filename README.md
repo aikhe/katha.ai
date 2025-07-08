@@ -91,6 +91,8 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 
 - ROUTING (nextjs app router)
 
+  - [ ] Redo
+  - [ ] Db e.g Entries support
   - [ ] Dynamic routing
   - [ ] Default route as home + middleware checks
   - [ ] notFound() page handler (not-found.tsx)
@@ -102,6 +104,12 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [ ] Refine middleware logic
   - [ ] Metadata for each pages (MatterProvider)
   - [ ] Worried about the routing for each generated katha by each user since the dashboard routing is very limited to _pages folder
+
+- COMPONENTS (internal package)
+
+  - [ ] Shadcn?
+  - [ ] 
+
 
 - TURBOREPO
 
@@ -124,6 +132,8 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   ```
   - apps/site
   - packages/ui-components
+  - [ ] 
+  - [ ] 
   - 
   ```
   - [ ] Eslint
@@ -178,3 +188,16 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - React scan (forgot about the auth component)
   - Repo is built with collaborators in mind so I can actually learn shit
   - I make my life hard I can actually kill myself
+
+### Inspirations
+
+- [Kortex](https://www.kortex.co/)
+- [Notion](https://www.notion.com/)
+- [Midday](https://midday.ai/)
+- [dipainhouse](https://www.dipainhouse.com/)
+- [Shadcn](https://www.google.com/search?client=firefox-b-d&q=shadcn)
+- [T3.Chat](https://t3.chat/chat)
+- [cal.com](https://cal.com)
+- [Opennote](https://opennote.me/)
+- [Speechy](https://speechy.tech/)
+- [ShadcnBlocks](https://nsui.irung.me/)
