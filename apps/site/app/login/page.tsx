@@ -1,5 +1,6 @@
-import { login, signup, verifyOtp } from './actions';
 import Sample from '@katha-core/ui-components/Common/Sample/index';
+
+import { login, signup, verifyOtp } from './actions';
 
 export default function LoginPage() {
   return (
