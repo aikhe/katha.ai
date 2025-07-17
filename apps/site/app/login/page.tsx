@@ -1,6 +1,5 @@
-import { Button } from '@katha-core/ui-components/components/button';
-
 import { login, signup, verifyOtp } from './actions';
+import Sample from '@katha-core/ui-components/Common/Sample/index';
 
 export default function LoginPage() {
   return (
@@ -13,12 +12,15 @@ export default function LoginPage() {
           <input id="password" name="password" type="password" />
           <button formAction={login}>Log in</button>
           <button formAction={signup}>Sign up</button>
-          <Button>hjjkkl</Button>
 
           <label htmlFor="otp">OTP:</label>
           <input id="otp" name="otp" type="text" />
           <button formAction={verifyOtp}>Verify Otp</button>
         </form>
+      </section>
+
+      <section className="w-fulla mt-20 flex items-center justify-center">
+        <Sample />
       </section>
     </main>
   );

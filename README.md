@@ -121,6 +121,14 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   3. 
   ```
 
+- PACKAGES
+  - [ ] ui-components
+    - [x] Imports & exports via package.json
+    - [x] frick "@"
+    - [ ] Actually get tailwind & shadcn components working 
+    - [ ] 
+  - [ ] 
+
 - CONFIGS
 
   - [x] Prettierignore

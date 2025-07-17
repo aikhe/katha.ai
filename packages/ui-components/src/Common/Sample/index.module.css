@@ -1,0 +1,5 @@
+@reference "../../styles/index.css";
+
+.sample {
+  @apply text-4xl font-bold text-amber-300;
+}
