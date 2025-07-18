@@ -1,0 +1,6 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "extends": ["//"],
+  "globalEnv": ["NODE_ENV"],
+  "tasks": {}
+}
