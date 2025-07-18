@@ -1,4 +1,4 @@
-import { Button } from '@katha-core/ui-components/components/button.jsx';
+import { Button } from '@katha-core/ui-components/components/button';
 
 import { login, signup, verifyOtp } from './actions';
 

@@ -20,9 +20,6 @@
     // Paths
     "rootDir": "./src", // Specify 'src' as the root directory for source files.
     "baseUrl": "./",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "outDir": "./dist" // Output compiled files to 'dist'.
   },
   "include": ["src"], // Include 'src' directory in compilation.
