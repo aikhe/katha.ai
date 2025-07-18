@@ -125,7 +125,8 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [ ] ui-components
     - [x] Imports & exports via package.json
     - [x] frick "@"
-    - [ ] Actually get tailwind & shadcn components working 
+    - [x] Actually get tailwind & shadcn components working 
+    - [x] global.d.ts for css type declaration
     - [ ] 
   - [ ] 
 
