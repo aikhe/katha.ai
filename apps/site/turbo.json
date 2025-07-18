@@ -4,7 +4,7 @@
   "globalEnv": ["NODE_ENV"],
   "tasks": {
     "dev": {
-      "dependsOn": ["^dev"],
+      "dependsOn": [],
       "cache": false,
       "persistent": true,
       "env": [
