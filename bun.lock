@@ -35,10 +35,15 @@
         "eslint": "^9",
         "eslint-config-next": "15.3.3",
         "stylelint": "^16.21.0",
-        "stylelint-config-standard": "^38.0.0",
-        "stylelint-order": "^7.0.0",
         "typescript": "^5",
         "typescript-eslint": "^8.35.0",
+      },
+    },
+    "packages/stylelint-config": {
+      "name": "@katha/stylelint-config-custom",
+      "devDependencies": {
+        "stylelint-config-standard": "^38.0.0",
+        "stylelint-order": "^7.0.0",
       },
     },
     "packages/ui-components": {
@@ -58,8 +63,6 @@
       "devDependencies": {
         "@types/bun": "latest",
         "npm-run-all": "^4.1.5",
-        "stylelint-config-standard": "^38.0.0",
-        "stylelint-order": "^7.0.0",
       },
     },
   },
@@ -251,6 +254,8 @@
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.29", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ=="],
 
     "@katha-core/ui-components": ["@katha-core/ui-components@workspace:packages/ui-components"],
+
+    "@katha/stylelint-config-custom": ["@katha/stylelint-config-custom@workspace:packages/stylelint-config"],
 
     "@keyv/serialize": ["@keyv/serialize@1.0.3", "", { "dependencies": { "buffer": "^6.0.3" } }, "sha512-qnEovoOp5Np2JDGonIDL6Ayihw0RhnRh6vxPuHo4RDn1UOzwEo4AeIfpL6UGIrsceWrCMiVPgwRjbHu4vYFc3g=="],
 

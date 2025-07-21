@@ -24,11 +24,11 @@ export default {
   extends: ['stylelint-config-standard'],
   plugins: ['stylelint-order'],
   ignoreFiles: [
-    '**/dist/**', // Any dist folder at any level
-    '**/build/**', // Any build folder at any level
-    '**/coverage/**', // Coverage reports
-    '**/.turbo/**', // Turbo cache
-    '**/node_modules/**', // Node modules
+    '**/dist/**',
+    '**/build/**',
+    '**/.next/**',
+    '**/.turbo/**',
+    '**/node_modules/**',
   ],
   rules: {
     // Enforces Element Class Names to be camelCase

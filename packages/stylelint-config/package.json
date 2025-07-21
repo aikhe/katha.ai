@@ -1,0 +1,10 @@
+{
+  "name": "@katha/stylelint-config-custom",
+  "type": "module",
+  "private": true,
+  "main": "index.mjs",
+  "devDependencies": {
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-order": "^7.0.0"
+  }
+}
