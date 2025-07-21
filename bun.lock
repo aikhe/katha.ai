@@ -40,7 +40,7 @@
       },
     },
     "packages/stylelint-config": {
-      "name": "@katha/stylelint-config-custom",
+      "name": "@katha-core/stylelint-config",
       "devDependencies": {
         "stylelint-config-standard": "^38.0.0",
         "stylelint-order": "^7.0.0",
@@ -61,6 +61,7 @@
         "tw-animate-css": "^1.3.5",
       },
       "devDependencies": {
+        "@katha-core/stylelint-config": "workspace:*",
         "@types/bun": "latest",
         "npm-run-all": "^4.1.5",
       },
@@ -253,9 +254,9 @@
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.29", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-uw6guiW/gcAGPDhLmd77/6lW8QLeiV5RUTsAX46Db6oLhGaVj4lhnPwb184s1bkc8kdVg/+h988dro8GRDpmYQ=="],
 
-    "@katha-core/ui-components": ["@katha-core/ui-components@workspace:packages/ui-components"],
+    "@katha-core/stylelint-config": ["@katha-core/stylelint-config@workspace:packages/stylelint-config"],
 
-    "@katha/stylelint-config-custom": ["@katha/stylelint-config-custom@workspace:packages/stylelint-config"],
+    "@katha-core/ui-components": ["@katha-core/ui-components@workspace:packages/ui-components"],
 
     "@keyv/serialize": ["@keyv/serialize@1.0.3", "", { "dependencies": { "buffer": "^6.0.3" } }, "sha512-qnEovoOp5Np2JDGonIDL6Ayihw0RhnRh6vxPuHo4RDn1UOzwEo4AeIfpL6UGIrsceWrCMiVPgwRjbHu4vYFc3g=="],
 
