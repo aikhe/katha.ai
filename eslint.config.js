@@ -5,7 +5,7 @@ export default [
   js.configs.recommended,
   flatConfigs.recommended,
   {
-    ignores: ['node_modules', '.turbo', '.next', 'build'],
+    ignores: ['node_modules', '.turbo', '.next', 'build', 'dist'],
   },
   {
     files: ['**/*.{js,mjs,ts,tsx}'],

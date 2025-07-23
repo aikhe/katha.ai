@@ -11,7 +11,7 @@
     "lint": "node --run lint:js; node --run lint:css",
     "lint:css": "stylelint \"**/*.css\" --allow-empty-input --cache --cache-strategy=content --cache-location=.stylelintcache",
     "lint:js": "eslint \"**/*.{js,mjs,ts,tsx}\"",
-    "lint:fix": "node --run lint -- -- --fix",
+    "lint:fix": "eslint --ext js,mjs,ts,tsx --fix; stylelint **/*.css --fix",
     "start": "cross-env NODE_NO_WARNINGS=1 next start --port 3004"
   },
   "dependencies": {

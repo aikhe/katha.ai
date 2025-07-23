@@ -19,7 +19,7 @@
     "lint": "run-s lint:js lint:css",
     "lint:css": "stylelint \"**/*.css\" --allow-empty-input --cache --cache-strategy=content --cache-location=.stylelintcache",
     "lint:js": "eslint \"**/*.{js,mjs,ts,tsx}\"",
-    "lint:fix": "eslint . --ext js,mjs,ts,tsx --fix; stylelint **/*.css --fix"
+    "lint:fix": "eslint --ext js,mjs,ts,tsx --fix && stylelint **/*.css --fix"
   },
   "devDependencies": {
     "@types/bun": "latest",
