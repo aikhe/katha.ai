@@ -8,10 +8,10 @@
     "build:turbopack": "cross-env NODE_NO_WARNINGS=1 next build --turbopack",
     "dev": "cross-env NODE_NO_WARNINGS=1 next dev --turbo",
     "dev:turbopack": "cross-env NODE_NO_WARNINGS=1 next dev --turbopack",
-    "lint": "node --run lint:js && node --run lint:css",
+    "lint": "node --run lint:js; node --run lint:css",
     "lint:css": "stylelint \"**/*.css\" --allow-empty-input --cache --cache-strategy=content --cache-location=.stylelintcache",
-    "lint:fix": "node --run lint -- -- --fix",
     "lint:js": "eslint \"**/*.{js,mjs,ts,tsx}\"",
+    "lint:fix": "node --run lint -- -- --fix",
     "start": "cross-env NODE_NO_WARNINGS=1 next start --port 3004"
   },
   "dependencies": {

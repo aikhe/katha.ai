@@ -133,14 +133,14 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] Actually get inline tailwind classes working for the one last time
     - [x] Tailwindcss dev & build script 
     - [x] Eslint
-    - [ ] Stylelint
+    - [x] Stylelint
+    - [ ] Reusable stylelint config
     - [ ] Scripts (format, lint, etc.)
       - [x] Js lint
       - [x] Css lint
       - [ ] Types lint
     - [ ] Shadcn initial (probably lots of modification)
     - [ ] 
-  - [ ] Reusable stylelint config
   - [ ] 
 
 - CONFIGS
