@@ -1,12 +1,8 @@
-import styles from './index.module.css';
-
-import '../../styles/index.css';
-
 const Sample = () => {
   return (
-    <div className="text-4xl">
-      hjkl
-      <div className={styles.sample}>sample</div>
+    <div>
+      <p className="text-4xl font-bold text-amber-500">sample text</p>
+      <div className="">sample</div>
     </div>
   );
 };

@@ -88,6 +88,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] Supabase clients
     - [x] Client component client
     - [x] Server component client
+  - [ ] 
 
 - ROUTING (nextjs app router)
 
@@ -104,6 +105,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [ ] Refine middleware logic
   - [ ] Metadata for each pages (MatterProvider)
   - [ ] Worried about the routing for each generated katha by each user since the dashboard routing is very limited to _pages folder
+  - [ ] 
 
 - COMPONENTS (internal package)
 
@@ -120,6 +122,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   2. Build & Start
   3. 
   ```
+  - [ ] 
 
 - PACKAGES
   - [ ] ui-components
@@ -127,6 +130,8 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] frick "@"
     - [x] Actually get tailwind working 
     - [x] global.d.ts for css type declaration
+    - [x] Actually get inline tailwind classes working for the one last time
+    - [ ] Tailwindcss dev & build script 
     - [ ] Shadcn initial (probably lots of modification)
     - [ ] Scripts (format, lint, etc.)
     - [ ] 
@@ -176,6 +181,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] Prettier 
   - [x] Running lint/eslint (literally an lsp)
   - [x] Ts-config (configuration options)
+  - [x] Tailwind v4 monorepo setup (turborepo)
   - [ ] CI/CD pipeline (github actions)
   - [ ] Implement pre-scripts for both build and dev for a usecase
     ```
