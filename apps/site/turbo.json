@@ -4,7 +4,6 @@
   "globalEnv": ["NODE_ENV"],
   "tasks": {
     "dev": {
-      "dependsOn": [],
       "cache": false,
       "persistent": true,
       "env": [
@@ -47,7 +46,7 @@
     },
     "lint:js": {
       "inputs": [
-        "{app,components,hooks,layouts,middlewares,pages,providers,types,util}/**/*.{ts,tsx,mjs}",
+        "{app,components,hooks,layouts,middleware,pages,providers,types,util}/**/*.{ts,tsx,mjs}",
         "public/**/*.{ts,js,json}",
         "*.{json,ts,tsx}"
       ]

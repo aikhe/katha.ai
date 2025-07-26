@@ -2,5 +2,20 @@
   "$schema": "https://turborepo.com/schema.json",
   "extends": ["//"],
   "globalEnv": ["NODE_ENV"],
-  "tasks": {}
+  "tasks": {
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint:js": {
+      "inputs": ["**/*.{json,mjs,js,ts,tsx}"]
+    },
+    "lint:css": {
+      "inputs": ["**/*.css"],
+      "outputs": [".stylelintcache"]
+    },
+    "lint:fix": {
+      "cache": false
+    }
+  }
 }

@@ -1,6 +1,9 @@
 {
   "name": "@katha-core/ui-components",
   "type": "module",
+  "sideEffects": [
+    "**/*.css"
+  ],
   "exports": {
     "./index.css": "./dist/index.css",
     "./*": [
@@ -12,7 +15,11 @@
   },
   "scripts": {
     "build": "tailwindcss -i ./src/styles/index.css -o ./dist/index.css",
-    "dev": "tailwindcss -i ./src/styles/index.css -o ./dist/index.css --watch"
+    "dev": "tailwindcss -i ./src/styles/index.css -o ./dist/index.css --watch",
+    "lint": "node --run lint:js && node --run lint:css",
+    "lint:css": "stylelint \"**/*.css\" --allow-empty-input --cache --cache-strategy=content --cache-location=.stylelintcache",
+    "lint:fix": "node --run lint -- -- --fix",
+    "lint:js": "eslint \"**/*.{js,mjs,ts,tsx}\""
   },
   "devDependencies": {
     "@types/bun": "latest"
@@ -28,15 +35,6 @@
     "tailwind-merge": "^3.3.1",
     "tailwindcss": "^4.1.11",
     "tw-animate-css": "^1.3.5"
-  },
-  "imports": {
-    "#ui/*": [
-      "./src/*",
-      "./src/*.tsx",
-      "./src/*/index.tsx",
-      "./src/*.ts",
-      "./src/*/index.ts"
-    ]
   },
   "engines": {
     "node": ">=20"

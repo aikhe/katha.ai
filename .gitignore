@@ -12,6 +12,9 @@ apps/site/build
 .turbo
 cache
 
+# Output
+dist/
+
 # Cache Files
 .prettiercache
 .stylelintcache

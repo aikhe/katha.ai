@@ -131,9 +131,12 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] Actually get tailwind working 
     - [x] global.d.ts for css type declaration
     - [x] Actually get inline tailwind classes working for the one last time
-    - [ ] Tailwindcss dev & build script 
+    - [x] Tailwindcss dev & build script 
     - [ ] Shadcn initial (probably lots of modification)
     - [ ] Scripts (format, lint, etc.)
+      - [x] Js lint
+      - [x] Css lint
+      - [ ] Types lint
     - [ ] 
   - [ ] 
 
