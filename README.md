@@ -23,7 +23,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 3. Link or connect other entries by embedding or adding related entry manually or by AI
 4. Add tags, favorite or make it as important
 5. Check the dashboard for AI powered sanity check, ideas via kAIa, and your progress via graph
-6. Talk to Kath AI "kAIa" to unlock you sixth sense
+6. Talk to Katha AI "kAIa" to unlock you sixth sense
 	- Generate linked or connected ideas base on user prompt
 	- Talk the happenings and feel better
 	- (I'll make sure to make kAIa only talk inside katha)
@@ -132,12 +132,15 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] global.d.ts for css type declaration
     - [x] Actually get inline tailwind classes working for the one last time
     - [x] Tailwindcss dev & build script 
-    - [ ] Shadcn initial (probably lots of modification)
+    - [x] Eslint
+    - [ ] Stylelint
     - [ ] Scripts (format, lint, etc.)
       - [x] Js lint
       - [x] Css lint
       - [ ] Types lint
+    - [ ] Shadcn initial (probably lots of modification)
     - [ ] 
+  - [ ] Reusable stylelint config
   - [ ] 
 
 - CONFIGS

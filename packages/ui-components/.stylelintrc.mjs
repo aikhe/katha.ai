@@ -23,6 +23,13 @@ const ONLY_ALLOW_CAMEL_CASE_SELECTORS = [
 export default {
   extends: ['stylelint-config-standard'],
   plugins: ['stylelint-order'],
+  ignoreFiles: [
+    '**/dist/**', // Any dist folder at any level
+    '**/build/**', // Any build folder at any level
+    '**/coverage/**', // Coverage reports
+    '**/.turbo/**', // Turbo cache
+    '**/node_modules/**', // Node modules
+  ],
   rules: {
     // Enforces Element Class Names to be camelCase
     'selector-class-pattern': ONLY_ALLOW_CAMEL_CASE_SELECTORS,
@@ -47,5 +54,8 @@ export default {
     'at-rule-no-deprecated': [true, { ignoreAtRules: CUSTOM_AT_RULES }],
 
     // 'nodejs/one-utility-class-per-line': true,
+
+    // We need complex `:not()` for headings with anchor
+    'selector-not-notation': null,
   },
 };

@@ -7,10 +7,10 @@
     "build:turbopack": "turbo build:turbopack",
     "dev": "turbo dev",
     "dev:turbopack": "turbo dev:turbopack",
-    "format": "node --run prettier:fix && turbo lint:fix",
-    "lint": "turbo lint",
-    "lint:fix": "turbo lint:fix",
+    "check": "node --run prettier && turbo lint",
     "prettier": "prettier \"**/*.{js,mjs,ts,tsx,json,yml,css}\" --check --cache --cache-strategy=content --cache-location=.prettiercache",
+    "format": "node --run prettier:fix && turbo lint:fix",
+    "lint:fix": "turbo lint:fix",
     "prettier:fix": "node --run prettier -- --write",
     "start": "turbo start"
   },

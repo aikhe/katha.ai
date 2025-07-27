@@ -16,13 +16,16 @@
   "scripts": {
     "build": "tailwindcss -i ./src/styles/index.css -o ./dist/index.css",
     "dev": "tailwindcss -i ./src/styles/index.css -o ./dist/index.css --watch",
-    "lint": "node --run lint:js && node --run lint:css",
+    "lint": "run-s lint:js lint:css",
     "lint:css": "stylelint \"**/*.css\" --allow-empty-input --cache --cache-strategy=content --cache-location=.stylelintcache",
-    "lint:fix": "node --run lint -- -- --fix",
-    "lint:js": "eslint \"**/*.{js,mjs,ts,tsx}\""
+    "lint:js": "eslint \"**/*.{js,mjs,ts,tsx}\"",
+    "lint:fix": "eslint . --ext js,mjs,ts,tsx --fix && stylelint **/*.css --fix",
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "npm-run-all": "^4.1.5",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-order": "^7.0.0"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
