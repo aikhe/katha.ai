@@ -129,7 +129,10 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] Tailwindcss dev & build script
     - [x] Eslint
     - [x] Stylelint
-    - [x] Reusable stylelint config
+    - [ ] Reusable config packages
+      - [x] stylelint-config
+      - [-] eslint-config (not necessary & more clutter)
+      - [ ]
     - [ ] Scripts (format, lint, etc.)
       - [x] Js lint
       - [x] Css lint

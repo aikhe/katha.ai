@@ -28,8 +28,8 @@
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
     "@katha-core/stylelint-config": "workspace:*",
+    "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
