@@ -1,10 +1,11 @@
 {
   "name": "@katha-core/stylelint-config",
-  "type": "commonjs",
-  "private": true,
   "main": "index.js",
+  "private": true,
+  "type": "commonjs",
   "devDependencies": {
-    "stylelint-config-standard": "^38.0.0",
+    "stylelint": "^16.23.0",
+    "stylelint-config-standard": "^39.0.0",
     "stylelint-order": "^7.0.0"
   }
 }

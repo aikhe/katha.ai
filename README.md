@@ -129,13 +129,14 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] Tailwindcss dev & build script
     - [x] Eslint
     - [x] Stylelint
-    - [ ] Reusable stylelint config
+    - [x] Reusable stylelint config
     - [ ] Scripts (format, lint, etc.)
       - [x] Js lint
       - [x] Css lint
       - [ ] Types lint
     - [ ] Shadcn initial (probably lots of modification)
     - [ ]
+  - [ ] Optimize packages (check already instaalled packages & no duplicate)
   - [ ]
 
 - CONFIGS
@@ -144,7 +145,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] Tailwindcss prettier plugin
   - [x] Build
   - [x] Start
-  - [ ] Stylelint
+  - [x] Stylelint
 
   ```
   - apps/site
