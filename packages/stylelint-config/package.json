@@ -1,6 +1,6 @@
 {
   "name": "@katha-core/stylelint-config",
-  "type": "module",
+  "type": "commonjs",
   "private": true,
   "main": "index.js",
   "devDependencies": {

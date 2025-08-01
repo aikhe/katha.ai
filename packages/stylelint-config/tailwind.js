@@ -1,7 +1,7 @@
 /*
  * Tailwind-specific at-rules
  */
-export const CUSTOM_AT_RULES: string[] = [
+const CUSTOM_AT_RULES = [
   'apply',
   'layer',
   'responsive',
@@ -14,3 +14,8 @@ export const CUSTOM_AT_RULES: string[] = [
   'tailwind',
   'variants',
 ];
+
+module.exports = {
+  CUSTOM_AT_RULES,
+};
+

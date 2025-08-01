@@ -28,6 +28,7 @@
     "tailwindcss": "^4.1.11"
   },
   "devDependencies": {
+    "@katha-core/stylelint-config": "workspace:*",
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",

@@ -1,7 +1,8 @@
-import { ONLY_ALLOW_CAMEL_CASE_SELECTORS } from '@katha-core/stylelint-config/selectors';
-import { CUSTOM_AT_RULES } from '@katha-core/stylelint-config/tailwind';
+const { ONLY_ALLOW_CAMEL_CASE_SELECTORS } = require('./selectors.js');
+const { CUSTOM_AT_RULES } = require('./tailwind.js');
 
-export default {
+/** @type {import('stylelint').Config} */
+module.exports = {
   extends: ['stylelint-config-standard'],
   plugins: ['stylelint-order'],
   ignoreFiles: [

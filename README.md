@@ -1,6 +1,6 @@
- **Katha**
+**Katha**
 
-A vault system to keep me from **completely losing my mind**. This is a simple and neat inventory management system where I can store everything that matters, *so I can stay present and not spiral into insanity*. "Katha" means **"created by the mind"**, which means it's up to me to turn thoughts into reality… or at least attempt to.
+A vault system to keep me from **completely losing my mind**. This is a simple and neat inventory management system where I can store everything that matters, _so I can stay present and not spiral into insanity_. "Katha" means **"created by the mind"**, which means it's up to me to turn thoughts into reality… or at least attempt to.
 
 ### Tech Stack:
 
@@ -24,12 +24,12 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 4. Add tags, favorite or make it as important
 5. Check the dashboard for AI powered sanity check, ideas via kAIa, and your progress via graph
 6. Talk to Katha AI "kAIa" to unlock you sixth sense
-	- Generate linked or connected ideas base on user prompt
-	- Talk the happenings and feel better
-	- (I'll make sure to make kAIa only talk inside katha)
+   - Generate linked or connected ideas base on user prompt
+   - Talk the happenings and feel better
+   - (I'll make sure to make kAIa only talk inside katha)
 7. Generate blogs base on your entries with kAIa help
 8. Keep track of your progress via graphs and kAIa
-9. Daily check in and keep the streak going 
+9. Daily check in and keep the streak going
 10. Actually remember that this thing exist for the second time
 
 #### CHECKPOINT
@@ -44,18 +44,17 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
 - [x] Cursor fix
 - [x] Bun era
 - [ ] Recall some features and react hooks
-    [ ] 
-    [ ] 
-- [ ] Make huge changes to the ui and ux 
-- [ ] 
-- [ ] 
+      [ ]
+      [ ]
+- [ ] Make huge changes to the ui and ux
+- [ ]
+- [ ]
 
---- 
+---
 
 #### To-Do
 
 - BUILD
-  
   - [x] Nextjs installation
   - [x] Bun for everthing
   - [x] App/project structure (app router)
@@ -78,20 +77,18 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] @eslint/js
     - [x] eslint
     - [x] eslint-plugin-import-x
-    - [ ] 
-  - [ ] 
+    - [ ]
+  - [ ]
 
 - AUTH (Supabase)
-  
   - [x] Packages @supabase/supabase-js @supabase/ssr
   - [x] Env. vars
   - [x] Supabase clients
     - [x] Client component client
     - [x] Server component client
-  - [ ] 
+  - [ ]
 
 - ROUTING (nextjs app router)
-
   - [ ] Redo
   - [ ] Db e.g Entries support
   - [ ] Dynamic routing
@@ -104,34 +101,32 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [ ] Error page (error.tsx)
   - [ ] Refine middleware logic
   - [ ] Metadata for each pages (MatterProvider)
-  - [ ] Worried about the routing for each generated katha by each user since the dashboard routing is very limited to _pages folder
-  - [ ] 
+  - [ ] Worried about the routing for each generated katha by each user since the dashboard routing is very limited to \_pages folder
+  - [ ]
 
 - COMPONENTS (internal package)
-
   - [ ] Shadcn?
-  - [ ] 
-
+  - [ ]
 
 - TURBOREPO
-
   - [ ] Sync/update package.json & turbo.json
   - [ ] ci/cd pipeline (github action implementation)
+
   ```
   1. Formatting/linting (prettier, eslint, stylelint)
   2. Build & Start
-  3. 
+  3.
   ```
-  - [ ] 
+  - [ ]
 
 - PACKAGES
   - [ ] ui-components
     - [x] Imports & exports via package.json
     - [x] frick "@"
-    - [x] Actually get tailwind working 
+    - [x] Actually get tailwind working
     - [x] global.d.ts for css type declaration
     - [x] Actually get inline tailwind classes working for the one last time
-    - [x] Tailwindcss dev & build script 
+    - [x] Tailwindcss dev & build script
     - [x] Eslint
     - [x] Stylelint
     - [ ] Reusable stylelint config
@@ -140,51 +135,50 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
       - [x] Css lint
       - [ ] Types lint
     - [ ] Shadcn initial (probably lots of modification)
-    - [ ] 
-  - [ ] 
+    - [ ]
+  - [ ]
 
 - CONFIGS
-
   - [x] Prettierignore
   - [x] Prettier
   - [x] Tailwindcss prettier plugin
   - [x] Build
   - [x] Start
   - [ ] Stylelint
+
   ```
   - apps/site
   - packages/ui-components
-  - [ ] 
-  - [ ] 
-  - 
+  - [ ]
+  - [ ]
+  -
   ```
   - [ ] Eslint
+
   ```
   - root
   - apps/site
   - packages/ui-components
-  - 
+  -
   ```
-  - [ ] 
+  - [ ]
 
 - SCRIPTS
-
   - [ ] Linting scripts
     - [x] css
     - [x] js
     - [ ] md
   - [x] Fix lint & format via root
   - [x] Build & start
-  - [ ] 
+  - [ ]
   - [ ] Check-types
-  - [ ] 
+  - [ ]
 
 - ERUDITON
-
   - [x] Tailwind v4
   - [x] Monorepos (turborepo)
   - [x] More node usecase
-  - [x] Prettier 
+  - [x] Prettier
   - [x] Running lint/eslint (literally an lsp)
   - [x] Ts-config (configuration options)
   - [x] Tailwind v4 monorepo setup (turborepo)
@@ -193,21 +187,21 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     ```
     {
       "scripts": {
-	"prebuild": "node --run build:blog-data",
-	"predev": "node --run build:blog-data",
+    "prebuild": "node --run build:blog-data",
+    "predev": "node --run build:blog-data",
       }
     }
     ```
   - [x] Use case for supabase clients:
-      ```
-      - Client component client: displaying updates e.g User Info (frontend side, faster, optimistic UI updates, relies heavily on RLS for security)
-      - Server component client: manipulating data & auth (used via server actions & route handlers, complex backend logic, security)
-      - NOTE: server actions are mostly prefered for most use case especially data mutations (create, update, delete) for more secure and efficient way to perform server-side logic from client-side interactions, often resulting in a better developer experience and potentially better performance due to automatic revalidation.
 
-      ```
+    ```
+    - Client component client: displaying updates e.g User Info (frontend side, faster, optimistic UI updates, relies heavily on RLS for security)
+    - Server component client: manipulating data & auth (used via server actions & route handlers, complex backend logic, security)
+    - NOTE: server actions are mostly prefered for most use case especially data mutations (create, update, delete) for more secure and efficient way to perform server-side logic from client-side interactions, often resulting in a better developer experience and potentially better performance due to automatic revalidation.
+
+    ```
 
 - NOTE
-
   - Builds and dev check to avoid issues on deployment
   - React scan (forgot about the auth component)
   - Repo is built with collaborators in mind so I can actually learn shit
