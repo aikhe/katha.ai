@@ -60,9 +60,33 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
   - [x] App/project structure (app router)
   - [x] Remove unecessary/unused components/styling
   - [ ] Dependencies
-    - [x] @supabase/supabase-js @supabase/ssr
+    - Root
+    - [x] @eslint/eslintrc, @eslint/js, eslint, eslint-config-next, eslint-plugin-import-x
+    - [x] prettier, prettier-plugin-tailwindcss
+    - [x] turbo
+    - [x] npm-run-all
+
+    - UI-component
+    - [x] @radix-ui/react-slot
+    - [x] @tailwindcss/cli, @tailwindcss/postcss, tailwindcss, tw-animate-css, tailwind-merge
+    - [x] class-variance-authority
+    - [x] clsx
+    - [x] lucide-react
+    - [x] postcss
+
+    - Stylelint-config
+    - [x] stylelint
+
+    - Site
+    - [x] @supabase/supabase-js, @supabase/ssr
     - [x] cross-env
     - [x] react-scan
+
+    - Global
+    - [x] @katha-core/ui-components
+    - [x] @katha-core/stylelint-config
+    - [x] @types/bun
+
     - [ ] node-mailjet
     - [ ] zod
     - [ ] react-hook-form
@@ -70,6 +94,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [ ] @tanstack/react-query
     - [ ] @tanstack/react-query-devtools
     - [ ] Shadcn
+
   - [ ] Dev dependencies
     - [x] turbo
     - [x] prettier
@@ -172,7 +197,7 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
     - [x] css
     - [x] js
     - [ ] md
-  - [x] Fix lint & format via root
+  - [x] Fix lint/check & format via root
   - [x] Build & start
   - [ ]
   - [ ] Check-types

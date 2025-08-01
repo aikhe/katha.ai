@@ -23,14 +23,12 @@
   },
   "devDependencies": {
     "@katha-core/stylelint-config": "workspace:*",
-    "@katha-core/eslint-config": "workspace:*",
-    "@types/bun": "latest",
-    "npm-run-all": "^4.1.5"
+    "@types/bun": "latest"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
     "@tailwindcss/cli": "^4.1.11",
-    "@tailwindcss/postcss": "^4.1.11",
+    "regular": "^4.1.11",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.525.0",

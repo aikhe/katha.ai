@@ -8,4 +8,3 @@ const ONLY_ALLOW_CAMEL_CASE_SELECTORS = [
 module.exports = {
   ONLY_ALLOW_CAMEL_CASE_SELECTORS,
 };
-
