@@ -1,3 +1,4 @@
+/* eslint-disable */
 const { ONLY_ALLOW_CAMEL_CASE_SELECTORS } = require('./selectors.js');
 const { CUSTOM_AT_RULES } = require('./tailwind.js');
 

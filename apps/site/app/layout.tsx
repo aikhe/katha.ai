@@ -1,10 +1,10 @@
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 
+import { ReactScan } from '@/components/ReactScan';
+
 import '@/styles/globals.css';
 import '@katha-core/ui-components/index.css';
-
-import { ReactScan } from '@/components/ReactScan';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',

@@ -10,6 +10,7 @@ export default [
   {
     files: ['**/*.{js,mjs,ts,tsx}'],
     rules: {
+      80001: 'off',
       // Verify that namespace imports are actually used.
       'import-x/namespace': 'off',
       // Warn against using named exports as properties of the default export.

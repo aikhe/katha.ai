@@ -2,12 +2,13 @@
   "compilerOptions": {
     // Environment build & latest features
     "target": "ESNext", // Target latest ECMAScript version.
-    "lib": ["ESNext"], // Use latest JS standard library.
+    "lib": [
+      "ESNext"
+    ], // Use latest JS standard library.
     "esModuleInterop": true, // Improve CommonJS/ESM compatibility.
     "moduleResolution": "Bundler", // Mimic modern bundler resolution.
     "module": "ESNext", // Use latest module system.
     "jsx": "react-jsx", // Use modern React JSX transform.
-
     // Best practices
     "allowJs": true, // Allow importing .js files.
     "skipLibCheck": true, // Skip type-checking library declarations.
@@ -16,12 +17,21 @@
     "resolveJsonModule": true, // Allow importing .json files.
     "isolatedModules": true, // Ensure files can be transpiled independently.
     "incremental": true, // Enable faster subsequent builds.
-
     // Paths
     "rootDir": "./src", // Specify 'src' as the root directory for source files.
     "baseUrl": "./",
-    "outDir": "./dist" // Output compiled files to 'dist'.
+    "outDir": "./dist", // Output compiled files to 'dist'.
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
   },
-  "include": ["src"], // Include 'src' directory in compilation.
-  "exclude": ["**/*.test.*", "**/*.stories.tsx"] // Exclude test and story files.
+  "include": [
+    "src"
+  ], // Include 'src' directory in compilation.
+  "exclude": [
+    "**/*.test.*",
+    "**/*.stories.tsx"
+  ] // Exclude test and story files.
 }
