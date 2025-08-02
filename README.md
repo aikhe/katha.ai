@@ -162,7 +162,9 @@ A vault system to keep me from **completely losing my mind**. This is a simple a
       - [x] Js lint
       - [x] Css lint
       - [ ] Types lint
-    - [ ] Shadcn initial (probably lots of modification)
+    - [x] Shadcn initial (probably lots of modification)
+      - [x] I can finally die peacefully
+      - [ ] Modify import aliases if possible (shadcn plss dont fail me)
     - [ ]
   - [ ] Optimize packages (check already instaalled packages & no duplicate)
   - [ ]

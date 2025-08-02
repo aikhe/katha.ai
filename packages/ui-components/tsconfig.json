@@ -2,9 +2,7 @@
   "compilerOptions": {
     // Environment build & latest features
     "target": "ESNext", // Target latest ECMAScript version.
-    "lib": [
-      "ESNext"
-    ], // Use latest JS standard library.
+    "lib": ["ESNext"], // Use latest JS standard library.
     "esModuleInterop": true, // Improve CommonJS/ESM compatibility.
     "moduleResolution": "Bundler", // Mimic modern bundler resolution.
     "module": "ESNext", // Use latest module system.
@@ -22,16 +20,9 @@
     "baseUrl": "./",
     "outDir": "./dist", // Output compiled files to 'dist'.
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "src"
-  ], // Include 'src' directory in compilation.
-  "exclude": [
-    "**/*.test.*",
-    "**/*.stories.tsx"
-  ] // Exclude test and story files.
+  "include": ["src"], // Include 'src' directory in compilation.
+  "exclude": ["**/*.test.*", "**/*.stories.tsx"] // Exclude test and story files.
 }

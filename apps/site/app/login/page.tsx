@@ -1,4 +1,5 @@
 import Sample from '@katha-core/ui-components/Common/Sample/index';
+import { Button } from '@katha-core/ui-components/components/button';
 
 import { login, signup, verifyOtp } from './actions';
 
@@ -23,6 +24,7 @@ export default function LoginPage() {
       <section className="w-fulla mt-20 flex items-center justify-center">
         <Sample />
       </section>
+      <Button variant={'outline'}>something</Button>
     </main>
   );
 }
